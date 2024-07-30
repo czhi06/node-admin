@@ -1,0 +1,19 @@
+{
+  "name": "node-admin",
+  "version": "1.0.0",
+  "description": "my-admin-node-project/\r ├── app.js               // 应用的入口文件\r ├── controllers/         // 存放控制器模块\r │   ├── userController.js\r │   └──...\r ├── models/              // 存放数据模型模块\r │   ├── userModel.js\r │   └──...\r ├── routes/              // 存放路由模块\r │   ├── userRoutes.js\r │   └──...\r ├── services/            // 存放服务模块\r │   ├── authService.js\r │   └──...\r ├── middlewares/         // 存放中间件模块\r │   ├── authMiddleware.js\r │   └──...\r ├── config/              // 配置相关的文件\r │   ├── dbConfig.js\r │   └──...\r ├── utils/               // 工具函数模块\r │   ├── helperFunctions.js\r │   └──...\r ├── views/               // 视图模板（如果使用模板引擎）\r │   ├── index.html\r │   └──...\r ├── public/              // 静态资源，如 CSS、JS、图片等\r │   ├── styles.css\r │   └──...\r ├──.gitignore            // Git 忽略文件\r ├── package.json          // 项目依赖和脚本配置\r └── README.md             // 项目说明文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "c_zhi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
